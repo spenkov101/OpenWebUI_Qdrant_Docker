@@ -1,0 +1,8 @@
+qdrant_storage/
+__pycache__/
+*.log
+*.tmp
+*.bak
+*.sqlite3
+*.env
+.env
