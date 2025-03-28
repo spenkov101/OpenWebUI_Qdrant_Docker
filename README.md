@@ -1,27 +1,29 @@
 # 🧠 OpenWebUI_Qdrant_Docker
 
-This project sets up a local Retrieval-Augmented Generation (RAG) environment using:
+[![Docker](https://img.shields.io/badge/Powered%20By-Docker-blue?logo=docker)](https://www.docker.com/)
+[![Qdrant](https://img.shields.io/badge/Vector%20DB-Qdrant-purple?logo=data)](https://qdrant.tech/)
+[![Ollama](https://img.shields.io/badge/LLMs-Ollama-brightgreen?logo=openai)](https://ollama.com)
+[![Made by Stan](https://img.shields.io/badge/Created%20by-Stan-blueviolet)](#)
 
-- **OpenWebUI** – clean, chat-based interface for interacting with LLMs
-- **Qdrant** – vector database for storing document embeddings
-- **Ollama** – runs local language models like LLaMA3, Mistral, Phi-3, etc.
+> A complete local AI assistant stack with RAG support using **OpenWebUI + Qdrant + Ollama** – easily run LLMs like `llama3` locally and query your own documents.
 
 ---
 
-## 🧩 Components
+## 📦 Stack
 
-| Service     | Port        | Description                              |
-|-------------|-------------|------------------------------------------|
-| OpenWebUI   | `http://localhost:3000` | Chat UI connected to Ollama + Qdrant |
-| Qdrant      | `http://localhost:6333` | Vector database API (REST)           |
-| Ollama      | `http://localhost:11434`| Local LLM server (e.g. llama3)        |
+| Component     | Purpose                         |
+|---------------|---------------------------------|
+| 🗨️ OpenWebUI  | Frontend chat interface         |
+| 📚 Qdrant     | Vector database for embeddings  |
+| 🧠 Ollama     | Local LLM runner (e.g. llama3)  |
+| 🐳 Docker     | Containerized everything        |
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/OpenWebUI_Qdrant_Docker.git
-cd OpenWebUI_Qdrant_Docker
+git clone https://github.com/YOUR_USERNAME/OpenWebUI_Qdrant_Docker.git
+cd OpenWebUI_Qdrant_Docker/my-work-env
