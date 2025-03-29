@@ -25,5 +25,5 @@
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OpenWebUI_Qdrant_Docker.git
+git clone https://github.com/spenkov101/OpenWebUI_Qdrant_Docker.git
 cd OpenWebUI_Qdrant_Docker/my-work-env
