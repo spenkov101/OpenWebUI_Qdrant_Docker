@@ -27,3 +27,8 @@
 ```bash
 git clone https://github.com/spenkov101/OpenWebUI_Qdrant_Docker.git
 cd OpenWebUI_Qdrant_Docker/my-work-env
+
+
+
+![image](https://github.com/user-attachments/assets/c1d39ee4-180e-42a5-af7e-612b3b0aa937)
+
