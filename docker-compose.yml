@@ -13,13 +13,13 @@ services:
     image: ghcr.io/open-webui/open-webui:main
     container_name: openwebui
     env_file:
-      - .enV
+      - .env
     ports:
-      - "3000:8080"
+      - "${OPENWEBUI_PORT:-3000}:8080"
     environment:
-      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL}
       - VECTOR_DB=qdrant
-      - QDRANT_URI=http://qdrant:6333
+      - QDRANT_URI=http://${QDRANT_HOST:-qdrant}:${QDRANT_PORT:-6333}
     depends_on:
       - qdrant
     extra_hosts:
