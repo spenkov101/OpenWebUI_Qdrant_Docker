@@ -12,6 +12,8 @@ services:
   openwebui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: openwebui
+    env_file:
+      - .enV
     ports:
       - "3000:8080"
     environment:
